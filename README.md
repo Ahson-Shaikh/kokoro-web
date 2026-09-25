@@ -68,6 +68,12 @@ You can adjust the `compose.yaml` according to your needs or use docker run dire
 
 Then access the web UI at http://localhost:3000 and the API at http://localhost:3000/api/v1/index.html
 
+### Option 3: Self-host with Easypanel
+
+[Easypanel](https://easypanel.io) is a self-hosted Docker deployment platform, and it maintains a one-click deployment template for Kokoro Web:
+
+[![Deploy on Easypanel](https://easypanel.io/img/deploy-on-easypanel-40.svg)](https://easypanel.io/templates/kokoro)
+
 ## ⚙️ Environment variables
 
 - **KW_SECRET_API_KEY** - Your API key for authentication. If left blank, authentication will not be activated
